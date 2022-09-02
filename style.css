@@ -1,0 +1,391 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(219, 219, 219);
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+
+.headerText h1 {
+    margin: 0;
+    cursor: pointer;
+}
+
+.headerText a {
+    text-decoration: none;
+    color: black;
+}
+
+.headerInput input {
+    background-color: rgb(239, 239, 239);
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 200px;
+    font-size: 16px;
+    outline: none;
+}
+
+.headerImages img {
+    height: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.left {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right {
+    width: 40%;
+}
+
+.profilePicture {
+    height: 30px !important;
+    border-radius: 100%;
+    width: 30px;
+    object-fit: cover;
+}
+
+.underPart {
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    height: 100%;
+    padding-bottom: 16px;
+}
+
+.upperBox {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    background-color: white;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.storyPart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.storyPart img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+    background: linear-gradient(45deg, gold, fuchsia);
+    display: block;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.storyPart p {
+    margin-top: 3px;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+.profiles {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    width: 80%;
+}
+
+.profiles img {
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.bold {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.thin {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.changeProfile p {
+    font-size: 15px;
+    color: rgb(0, 149, 246);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.recommendation {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    align-items: center;
+}
+
+.recomm {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(147, 147, 147);
+}
+
+.showAll {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.profileRecomm {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.profileRecomm img {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.profileRecomm p {
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.footer {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer p {
+    font-size: 10px;
+    color: rgb(147, 147, 147);
+    cursor: pointer;
+}
+
+.postID {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post {
+    background-color: white;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    height: 100px;
+    width: 83%;
+    margin-top: 25px;
+    height: fit-content;
+}
+
+.postHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+}
+
+.postHeaderLeft {
+    display: flex;
+    align-items: center;
+}
+
+.postHeaderLeft img {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.postHeaderLeft p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.postHeaderRight img {
+    width: 20px;
+}
+
+.imagePart {
+    position: relative;
+}
+
+.imagePart img {
+    width: 100%;
+}
+
+.likeSection {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.likeSectionImages img {
+    height: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.d-none {
+    display: none;
+}
+
+.likeAmount {
+    padding: 5px;
+}
+
+.likeAmount p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.descriptionSection {
+    padding: 5px;
+    display: flex;
+    width: 98%;
+}
+
+.descriptionAuthor {
+    white-space: nowrap;
+}
+
+.descriptionAuthor p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.description p {
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-right: 5px;
+}
+
+.commentSection {
+    padding: 5px;
+    border-top: 1px solid rgb(239, 239, 239);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.commentSmiley img {
+    height: 25px;
+}
+
+.postComment p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(0, 149, 246);
+    cursor: pointer;
+}
+
+.commentInput input {
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 30px;
+}
+
+.commentPosition {
+    display: flex;
+    flex-direction: column;
+}
+
+.position {
+    display: flex;
+    padding: 5px;
+}
+
+.delete {
+    color: rgb(145, 141, 141);
+    cursor: pointer;
+}
+
+.commentAuthor {
+    font-weight: bold;
+}
+
+#more {
+    display: none;
+}
+
+.pointerMore {
+    cursor: pointer;
+    color: rgb(145, 141, 141);
+}
+
+@media (max-width: 900px) {
+    .headerInput {
+        display: none;
+    }
+
+    .headerImages {
+        position: fixed;
+        bottom: 0;
+        background-color: white;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 40px;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .left {
+        width: 100%;
+        padding: 15px;
+        padding-bottom: 60px;
+    }
+
+    .commentInput input {
+        width: 150px;
+    }
+
+    .upperBox {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .post {
+        width: 100%;
+    }
+}
